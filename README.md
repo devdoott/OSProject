@@ -6,8 +6,8 @@ Our diver also provides synchronization between processes/threads writing to the
 For testing, paste all the folders and files in the home directory.
 Finally execute the following command with home as the pwd.
 ~$sudo sh testcase.sh [block size in KB]
-w1 are writes performed by the first thread
-w2 are writes performed by the second thread
+w1 are writes performed by the first thread given by test.txt in testing folder.
+w2 are writes performed by the second thread  given by test2.txt in testing folder.
 On running testcase.sh the output to the device is shown.
 Also for speed testing, 10MB of zeros are written to the device and the speed of the operation is shown using dd command.
 For block size =4000KB the output will be:
@@ -67,12 +67,12 @@ w2 scull.mod.c
 w2 scull.mod.o
 w2 scull.o
 w2 scull_unload
-w2 test.txt
-Speed checking.....................
-Speed checking.....................
-Speed checking.....................
-Speed checking.....................
-1+0 records in
-1+0 records out
-10485760 bytes (10 MB, 10 MiB) copied, 0.00530897 s, 2.0 GB/s
+w2 test.txt<br>
+Speed checking.....................<br>
+Speed checking.....................<br>
+Speed checking.....................<br>
+Speed checking.....................<br>
+1+0 records in<br>
+1+0 records out<br>
+10485760 bytes (10 MB, 10 MiB) copied, 0.00530897 s, 2.0 GB/s<br>
 
