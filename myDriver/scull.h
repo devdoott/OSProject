@@ -35,7 +35,7 @@
 #endif
 
 #ifndef SCULL_QSET
-#define SCULL_QSET    100
+#define SCULL_QSET    1000
 #endif
 
 /*
