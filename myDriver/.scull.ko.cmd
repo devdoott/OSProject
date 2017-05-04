@@ -1,0 +1,1 @@
+cmd_/home/devdoot/myDriver/scull.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/devdoot/myDriver/scull.ko /home/devdoot/myDriver/scull.o /home/devdoot/myDriver/scull.mod.o
