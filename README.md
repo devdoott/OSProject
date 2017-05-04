@@ -1,15 +1,15 @@
 # OSProject
-In this project we have modified the basic char driver for reading and writing to memory.
-The basic char driver used the block size pre determined by the operaing system.
-Our driver gives option to the user to change block size for writing data to the device.
-Our diver also provides synchronization between processes/threads writing to the device.
-For testing, paste all the folders and files in the home directory.
-Finally execute the following command with home as the pwd.
-~$sudo sh testcase.sh [block size in KB]
-w1 are writes performed by the first thread given by test.txt in testing folder.
-w2 are writes performed by the second thread  given by test2.txt in testing folder.
-On running testcase.sh the output to the device is shown.
-Also for speed testing, 10MB of zeros are written to the device and the speed of the operation is shown using dd command.
+In this project we have modified the basic char driver for reading and writing to memory.<br>
+The basic char driver used the block size pre determined by the operaing system.<br>
+Our driver gives option to the user to change block size for writing data to the device.<br>
+Our diver also provides synchronization between processes/threads writing to the device.<br>
+For testing, paste all the folders and files in the home directory.<br>
+Finally execute the following command with home as the pwd.<br>
+~$sudo sh testcase.sh [block size in KB]<br>
+w1 are writes performed by the first thread given by test.txt in testing folder.<br>
+w2 are writes performed by the second thread  given by test2.txt in testing folder.<br>
+On running testcase.sh the output to the device is shown.<br>
+Also for speed testing, 10MB of zeros are written to the device and the speed of the operation is shown using dd command.<br>
 For block size =4000KB the output will be:
 
 w1 1 android-studio-ide-143.2915827-linux.zip
